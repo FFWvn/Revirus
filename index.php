@@ -85,20 +85,22 @@
 
   <div id="footer-wrapper">
     <footer id="footer" class="region region-footer">
-      <div class="block quote-normal">
-        <div class="quote-item">
-          <blockquote>
-            ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br><br>
-            Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...
-          </blockquote>
-          <cite>Inge Regneark, RevDut A/S</cite>
-        </div>
-        <div class="quote-item">
-          <blockquote>
-            ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br><br>
-            Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...
-          </blockquote>
-          <cite>Inge Regneark, RevDut A/S</cite>
+      <div class="row">
+        <div class="block quote-normal">
+          <div class="quote-item">
+            <blockquote>
+              ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br><br>
+              Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...
+            </blockquote>
+            <cite>Inge Regneark, RevDut A/S</cite>
+          </div>
+          <div class="quote-item">
+            <blockquote>
+              ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br><br>
+              Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...
+            </blockquote>
+            <cite>Inge Regneark, RevDut A/S</cite>
+          </div>
         </div>
       </div>
     </footer>
