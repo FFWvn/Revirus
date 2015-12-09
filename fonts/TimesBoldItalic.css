@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'TimesBoldItalic';
-    src: url('fonts/TimesBoldItalic.eot');
-    src: url('fonts/TimesBoldItalic.eot') format('embedded-opentype'),
-         url('fonts/TimesBoldItalic.woff2') format('woff2'),
-         url('fonts/TimesBoldItalic.woff') format('woff'),
-         url('fonts/TimesBoldItalic.ttf') format('truetype'),
-         url('fonts/TimesBoldItalic.svg#TimesBoldItalic') format('svg');
-}

@@ -47,32 +47,37 @@
 
     <div id="main">
       <div id="content" class="column" role="main">
-        <div class="element-invisible">
-          <h1 class="page__title title" id="page-title">Revirus</h1>
-        </div>
-
-        <div class="block block-login">
-          <h2 class="block-title">Login</h2>
-          <div class="block-content">
-            <form class="form-login" action="#">
-              <div class="form-item username">
-                <input type="text" name="username" class="text-input username" placeholder="Phone, email or username">
-              </div>
-              <div class="form-item password">
-                <input type="password" name="pasword" class="text-input pasword" placeholder="Password">
-              </div>
-              <div class="form-item rememberForgot">
-                <input type="checkbox" value="1" name="remember_me"> <span>Husk mig</span>
-              </div>
-              <input type="submit" class="submit btn primary-btn js-submit" value="Log in">
-            </form>
+        <div class="row">
+          <div class="element-invisible">
+            <h1 class="page__title title" id="page-title">Revirus</h1>
           </div>
-        </div>
 
-        <div class="block block-content quote-large">
-          <div class="block-content">
-            <blockquote>Lorem ipsum dolor sit amet, ut sea error iriure, ipsum dolor usu at debet ipsum dolor mandamus</blockquote>
+          <div class="block block-login">
+            <h2 class="block-title">Login</h2>
+            <div class="block-content">
+              <form class="form-login" action="#">
+                <div class="form-item username">
+                  <input type="text" name="username" class="text-input username" placeholder="Phone, email or username">
+                </div>
+                <div class="form-item password">
+                  <input type="password" name="pasword" class="text-input pasword" placeholder="Password">
+                </div>
+                <div class="form-item rememberForgot">
+                  <input id="remember" type="checkbox" value="remember" name="remember_me"> <label for="remember">Husk mig</label>
+                </div>
+                <div class="form-active">
+                  <input type="submit" class="submit btn primary-btn js-submit" value="Log in">
+                </div>
+              </form>
+            </div>
           </div>
+
+          <div class="block block-content quote-large">
+            <div class="block-content">
+              <blockquote>Lorem ipsum dolor sit amet,<br>ut sea error iriure, ipsum <br>dolor usu at debet ipsum<br> dolor mandamus</blockquote>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -83,15 +88,15 @@
       <div class="block quote-normal">
         <div class="quote-item">
           <blockquote>
-            ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br>
-            Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...”
+            ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br><br>
+            Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...
           </blockquote>
           <cite>Inge Regneark, RevDut A/S</cite>
         </div>
         <div class="quote-item">
           <blockquote>
-            ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br>
-            Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...”
+            ...Lorem ipsum dolor sit amet, ut sea error iriure, usu at debet mandamus. Pri debet dicit errem no, fugit nominati scripserit at mel. <br><br>
+            Commodo volumus cu pro. Mea cu everti causae qualisque, postea habemus vivendo qui ex. Nam ne suas decore indoctum, no mollis appareat rationibus his...
           </blockquote>
           <cite>Inge Regneark, RevDut A/S</cite>
         </div>

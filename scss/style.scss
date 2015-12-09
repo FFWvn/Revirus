@@ -9,6 +9,10 @@ $green-34: #348a30;
 $gray-67: #676767;
 $gray-32: #323133;
 $gray-4b: #4b4b4b;
+$gray-e8: #e8e8e8;
+$gray-f5: #f5f5f5;
+$gray-de: #dedede;
+$gray-ed: #ededed;
 
 $color-primary: $green;
 $color: $gray-67;
@@ -20,28 +24,28 @@ $bg-footer: $green-34;
 */
 @font-face {
   font-family: 'TimesItalic';
-  src: url('fonts/TimesItalic.eot');
-  src: url('fonts/TimesItalic.eot') format('embedded-opentype'),
-       url('fonts/TimesItalic.woff2') format('woff2'),
-       url('fonts/TimesItalic.woff') format('woff'),
-       url('fonts/TimesItalic.ttf') format('truetype'),
-       url('fonts/TimesItalic.svg#TimesItalic') format('svg');
+  src: url('../fonts/TimesItalic.eot');
+  src: url('../fonts/TimesItalic.eot') format('embedded-opentype'),
+       url('../fonts/TimesItalic.woff2') format('woff2'),
+       url('../fonts/TimesItalic.woff') format('woff'),
+       url('../fonts/TimesItalic.ttf') format('truetype'),
+       url('../fonts/TimesItalic.svg#TimesItalic') format('svg');
 }
 
 @font-face {
   font-family: 'TimesBoldItalic';
-  src: url('fonts/TimesBoldItalic.eot');
-  src: url('fonts/TimesBoldItalic.eot') format('embedded-opentype'),
-       url('fonts/TimesBoldItalic.woff2') format('woff2'),
-       url('fonts/TimesBoldItalic.woff') format('woff'),
-       url('fonts/TimesBoldItalic.ttf') format('truetype'),
-       url('fonts/TimesBoldItalic.svg#TimesBoldItalic') format('svg');
+  src: url('../fonts/TimesBoldItalic.eot');
+  src: url('../fonts/TimesBoldItalic.eot') format('embedded-opentype'),
+       url('../fonts/TimesBoldItalic.woff2') format('woff2'),
+       url('../fonts/TimesBoldItalic.woff') format('woff'),
+       url('../fonts/TimesBoldItalic.ttf') format('truetype'),
+       url('../fonts/TimesBoldItalic.svg#TimesBoldItalic') format('svg');
 }
 
 $lato: 'Lato', sans-serif;
 $opensans: 'Open Sans', sans-serif;
 $timeBI: 'TimesBoldItalic';
-$timeBI: 'TimesItalic';
+$timeI: 'TimesItalic';
 
 
 @import "libs/normalize";
@@ -53,13 +57,11 @@ $timeBI: 'TimesItalic';
 */
 
 /* --- Layout --- */
-
-/* Header */
 *, 
 *:after, 
 *:before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -80,11 +82,23 @@ $timeBI: 'TimesItalic';
 .row {
   margin: 0 auto;
   max-width: $container;
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
+.block {
+  margin-bottom: 10px;
+}
+
+/* Main */
+#content {
+  background-size: cover;
+  background: url('../images-template/home-main-bg.png') no-repeat scroll center center transparent;
+}
+
+/* Footer */
 #footer-wrapper {
   background-color: $bg-footer;
+  padding: 35px 0;
 }
 
 /* --- Normlize --- */
@@ -93,21 +107,49 @@ html {
 }
 
 html, body {
-  min-height: 100%;
   height: auto;
+  min-height: 100%;
 }
 
 body {
-  line-height: 21px;
-  line-height: 1.5em;
-  font-size: 14px;
-  font-size: 1em;
   color: $color;
   cursor: inherit;
+  font-size: 14px;
+  font-size: 1em;
+  line-height: 1.5em;
+  line-height: 21px;
 }
 
 .region-footer {
   color: #fff;
+}
+
+input[type*="text"],
+.text-input {
+  background-color: $gray-f5;
+  border-radius: 3px;
+  border: 1px solid $gray-e8;
+  font-size: 13px;
+  outline: none !important;
+  padding: 11px 12px;
+}
+
+blockquote {
+  font-family: $timeI;
+  text-align: center;
+
+  &:before,
+  &:after {
+    display: inline-block;
+  }
+
+  &:before {
+    content: "\201C";
+  }
+
+  &:after {
+    content: "\201D";
+  }
 }
 
 /* --- Custom --- */
@@ -121,7 +163,7 @@ body {
 
 .header__logo {
   display: block;
-  padding: 34px 0 30px 0;
+  padding: 32px 0 22px 0;
 }
 
 // Block Header
@@ -132,12 +174,15 @@ body {
 .block-banner-header {
   display: inline-block;
   line-height: 0;
+  margin-bottom: 0;
+  vertical-align: bottom;
 }
 
 // Navigation
 .navigation {
   display: inline-block;
-  padding-bottom: 30px;
+  margin-right: 78px;
+  padding-bottom: 23px;
   vertical-align: bottom;
 
   .menu {
@@ -146,9 +191,9 @@ body {
     padding: 0;
 
     li {
-      list-style: none;
       display: inline;
-      padding: 0 15px;
+      list-style: none;
+      padding: 0 16px;
 
       a {
         color: $color;
@@ -164,3 +209,159 @@ body {
     }
   }
 }
+
+/* Main */
+.block-login {
+  margin-bottom: 38px;
+  margin-left: 144px;
+  margin-top: 106px;
+  max-width: 300px;
+  position: relative;
+
+  &:before {
+    background-color: #fff;
+    border-radius: 5px;
+    bottom: 0;
+    content: "";
+    filter: alpha(opacity=60);
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .block-title,
+  .block-content {
+    position: relative;
+  }
+
+  .block-title {
+    border-bottom: 1px solid #fff;
+    color: $gray-32;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    padding: 23px 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .form-login {
+    padding: 30px;
+
+    .form-item {
+      margin: 18px 0;
+
+      .text-input {
+        width: 100%;
+      }
+    }
+
+    .username {
+      margin-top: 0;
+    }
+
+    .rememberForgot {
+      label {
+        color: $gray-4b;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 13px;
+        padding-left: 25px;
+        position: relative;
+
+        &:before {
+          background-color: $gray-ed;
+          border-radius: 100px;
+          border: 1px solid $gray-de;
+          bottom: 2px;
+          content: "";
+          display: inline-block;
+          height: 20px;
+          left: 0;
+          margin-right: 10px;
+          position: absolute;
+          width: 20px;
+        }
+      }
+
+      input[type*="checkbox"] {
+        display: none;
+
+        &:checked + label:before {
+          color: $color;
+          content: "\2713";
+          font-size: 15px;
+          line-height: 15px;
+          text-align: center;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+        }
+      }
+    }
+    
+    .form-active {
+      margin-top: 27px;
+      text-align: center;
+
+      .btn {
+        background-color: $color-primary;
+        border-radius: 100px;
+        border: none;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 15px 42px 13px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.quote-large {
+  margin-bottom: 119px;
+
+  blockquote {
+    color: #fff;
+    font-family: $timeBI;
+    font-size: 70px;
+    line-height: 69.5px;
+    margin: 0 137px 0 0;
+
+    &:before,
+    &:after {
+      font-size: 63px;
+    }
+  }
+}
+
+/* Footer */
+.region-footer {
+  .quote-normal {
+    margin-bottom: 0;
+    overflow: hidden;
+
+    .quote-item {
+      float: left;
+      margin-bottom: 140px;
+      max-width: 50%;
+      padding: 0 39px;
+      text-align: center;
+
+      cite {
+        font-family: $opensans;
+        font-size: 18px;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
