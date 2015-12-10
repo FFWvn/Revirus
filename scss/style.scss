@@ -203,9 +203,11 @@ blockquote {
   margin-left: 144px;
   margin-top: 106px;
   max-width: 300px;
-  border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
   background: url("../images/parten-o-white.png");
-  behavior: url(/css/pie.htc);
+  behavior: url(http://drupalchimp.com/Revirus/css/pie.htc);
   position: relative;
   zoom: 1;
 
@@ -299,6 +301,8 @@ blockquote {
 
       .btn {
         background-color: $color-primary;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
         border-radius: 100px;
         border: none;
         color: #fff;
@@ -306,7 +310,7 @@ blockquote {
         font-weight: 700;
         padding: 15px 42px 13px;
         text-transform: uppercase;
-        behavior: url(/css/pie.htc);
+        behavior: url(http://drupalchimp.com/Revirus/css/pie.htc);
         position: relative;
         zoom: 1;
       }

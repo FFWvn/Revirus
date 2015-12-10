@@ -33,7 +33,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 33, ../scss/libs/_normalize.scss */
+/* line 45, ../scss/libs/_normalize.scss */
 article,
 aside,
 details,
@@ -54,7 +54,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, ../scss/libs/_normalize.scss */
+/* line 57, ../scss/libs/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -79,7 +79,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 77, ../scss/libs/_normalize.scss */
+/* line 78, ../scss/libs/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -99,7 +99,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 98, ../scss/libs/_normalize.scss */
+/* line 99, ../scss/libs/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -118,7 +118,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, ../scss/libs/_normalize.scss */
+/* line 119, ../scss/libs/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -162,7 +162,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, ../scss/libs/_normalize.scss */
+/* line 163, ../scss/libs/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -229,7 +229,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, ../scss/libs/_normalize.scss */
+/* line 232, ../scss/libs/_normalize.scss */
 code,
 kbd,
 pre,
@@ -250,7 +250,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, ../scss/libs/_normalize.scss */
+/* line 256, ../scss/libs/_normalize.scss */
 button,
 input,
 optgroup,
@@ -278,7 +278,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, ../scss/libs/_normalize.scss */
+/* line 278, ../scss/libs/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -291,7 +291,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, ../scss/libs/_normalize.scss */
+/* line 293, ../scss/libs/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -305,7 +305,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, ../scss/libs/_normalize.scss */
+/* line 303, ../scss/libs/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -314,7 +314,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, ../scss/libs/_normalize.scss */
+/* line 312, ../scss/libs/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -337,7 +337,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, ../scss/libs/_normalize.scss */
+/* line 335, ../scss/libs/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -351,7 +351,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, ../scss/libs/_normalize.scss */
+/* line 347, ../scss/libs/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -374,7 +374,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, ../scss/libs/_normalize.scss */
+/* line 368, ../scss/libs/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -430,7 +430,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 421, ../scss/libs/_normalize.scss */
+/* line 422, ../scss/libs/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -450,7 +450,7 @@ th {
 * STYLE SHEET
 */
 /* --- Layout --- */
-/* line 36, ../scss/style.scss */
+/* line 38, ../scss/style.scss */
 *,
 *:after,
 *:before {
@@ -459,7 +459,7 @@ th {
   box-sizing: border-box;
 }
 
-/* line 44, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 .row:before,
 .row:after {
   content: '';
@@ -539,10 +539,10 @@ body {
   color: #fff;
 }
 
-/* line 109, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 input[type*="text"],
 .text-input {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   border-radius: 3px;
   border: 1px solid #e8e8e8;
   font-size: 13px;
@@ -560,7 +560,7 @@ blockquote {
   font-style: italic;
   font-size: 21px;
 }
-/* line 128, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 blockquote:before, blockquote:after {
   display: inline-block;
 }
@@ -638,9 +638,11 @@ blockquote:after {
   margin-left: 144px;
   margin-top: 106px;
   max-width: 300px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
   background: url("../images/parten-o-white.png");
-  behavior: url(/css/pie.htc);
+  behavior: url(http://drupalchimp.com/Revirus/css/pie.htc);
   position: relative;
   zoom: 1;
   /* &:before {
@@ -658,12 +660,12 @@ blockquote:after {
     height: 100%\9;
   } */
 }
-/* line 227, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .block-login .block-title,
 .block-login .block-content {
   position: relative;
 }
-/* line 232, ../scss/style.scss */
+/* line 234, ../scss/style.scss */
 .block-login .block-title {
   border-bottom: 1px solid #fff;
   color: #323133;
@@ -674,23 +676,23 @@ blockquote:after {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 243, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .block-login .form-login {
   padding: 30px;
 }
-/* line 246, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 .block-login .form-login .form-item {
   margin: 19px 0;
 }
-/* line 249, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .block-login .form-login .form-item .text-input {
   width: 100%;
 }
-/* line 254, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .block-login .form-login .username {
   margin-top: 0;
 }
-/* line 259, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .block-login .form-login .rememberForgot label {
   color: #4b4b4b;
   cursor: pointer;
@@ -699,7 +701,7 @@ blockquote:after {
   padding-left: 25px;
   position: relative;
 }
-/* line 267, ../scss/style.scss */
+/* line 269, ../scss/style.scss */
 .block-login .form-login .rememberForgot label:before {
   background-color: #ededed;
   border-radius: 100px;
@@ -713,11 +715,11 @@ blockquote:after {
   position: absolute;
   width: 20px;
 }
-/* line 282, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 .block-login .form-login .rememberForgot input[type*="checkbox"] {
   display: none;
 }
-/* line 285, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 .block-login .form-login .rememberForgot input[type*="checkbox"]:checked + label:before {
   color: #676767;
   content: "\2713";
@@ -726,14 +728,16 @@ blockquote:after {
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 296, ../scss/style.scss */
+/* line 298, ../scss/style.scss */
 .block-login .form-login .form-active {
   margin-top: 27px;
   text-align: center;
 }
-/* line 300, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 .block-login .form-login .form-active .btn {
   background-color: #07a20e;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   border-radius: 100px;
   border: none;
   color: #fff;
@@ -741,16 +745,16 @@ blockquote:after {
   font-weight: 700;
   padding: 15px 42px 13px;
   text-transform: uppercase;
-  behavior: url(/css/pie.htc);
+  behavior: url(http://drupalchimp.com/Revirus/css/pie.htc);
   position: relative;
   zoom: 1;
 }
 
-/* line 317, ../scss/style.scss */
+/* line 321, ../scss/style.scss */
 .quote-large {
   margin-bottom: 110px;
 }
-/* line 320, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 .quote-large blockquote {
   color: #fff;
   font-family: times, serif;
@@ -760,18 +764,18 @@ blockquote:after {
   font-weight: bold;
   font-style: italic;
 }
-/* line 329, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 .quote-large blockquote:before, .quote-large blockquote:after {
   font-size: 63px;
 }
 
 /* Footer */
-/* line 338, ../scss/style.scss */
+/* line 342, ../scss/style.scss */
 .region-footer .quote-normal {
   margin-bottom: 0;
   overflow: hidden;
 }
-/* line 342, ../scss/style.scss */
+/* line 346, ../scss/style.scss */
 .region-footer .quote-normal .quote-item {
   float: left;
   margin-bottom: 140px;
@@ -780,7 +784,7 @@ blockquote:after {
   padding: 0\9;
   text-align: center;
 }
-/* line 350, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .region-footer .quote-normal .quote-item cite {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
