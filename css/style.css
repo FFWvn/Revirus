@@ -509,6 +509,9 @@ input[type*="text"],
   font-size: 13px;
   outline: none !important;
   padding: 11px 12px;
+  behavior: url(/css/pie.htc);
+  position: relative;
+  zoom: 1;
 }
 
 blockquote {
