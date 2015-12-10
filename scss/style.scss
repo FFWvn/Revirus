@@ -325,6 +325,9 @@ blockquote {
         font-weight: 700;
         padding: 15px 42px 13px;
         text-transform: uppercase;
+        behavior: url(/css/pie.htc);
+        position: relative;
+        zoom: 1;
       }
     }
   }
