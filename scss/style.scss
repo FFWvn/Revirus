@@ -19,33 +19,9 @@ $color: $gray-67;
 $color-link: $color-primary;
 $bg-footer: $green-34;
 
-/*
-* FONTS
-*/
-@font-face {
-  font-family: 'TimesItalic';
-  src: url('../fonts/TimesItalic.eot');
-  src: url('../fonts/TimesItalic.eot') format('embedded-opentype'),
-       url('../fonts/TimesItalic.woff2') format('woff2'),
-       url('../fonts/TimesItalic.woff') format('woff'),
-       url('../fonts/TimesItalic.ttf') format('truetype'),
-       url('../fonts/TimesItalic.svg#TimesItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'TimesBoldItalic';
-  src: url('../fonts/TimesBoldItalic.eot');
-  src: url('../fonts/TimesBoldItalic.eot') format('embedded-opentype'),
-       url('../fonts/TimesBoldItalic.woff2') format('woff2'),
-       url('../fonts/TimesBoldItalic.woff') format('woff'),
-       url('../fonts/TimesBoldItalic.ttf') format('truetype'),
-       url('../fonts/TimesBoldItalic.svg#TimesBoldItalic') format('svg');
-}
-
 $lato: 'Lato', sans-serif;
 $opensans: 'Open Sans', sans-serif;
-$timeBI: 'TimesBoldItalic';
-$timeI: 'TimesItalic';
+$times: times, serif;
 
 
 @import "libs/normalize";
@@ -144,8 +120,9 @@ input[type*="text"],
 }
 
 blockquote {
-  font-family: $timeI;
+  font-family: $times;
   text-align: center;
+  font-style: italic;
 
   &:before,
   &:after {
@@ -341,10 +318,12 @@ blockquote {
 
   blockquote {
     color: #fff;
-    font-family: $timeBI;
+    font-family: $times;
     font-size: 70px;
     line-height: 69.5px;
     margin: 0 137px 0 0;
+    font-weight: bold;
+    font-style: italic;
 
     &:before,
     &:after {
