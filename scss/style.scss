@@ -67,7 +67,7 @@ $times: times, serif;
 
 /* Main */
 #content {
-  background: url('../images-template/home-main-bg.png') no-repeat scroll center center transparent;
+  background: url('../images-template/home-main-bg.png') no-repeat scroll 63% center transparent;
   background-size: cover;
   -ms-behavior: url(backgroundsize.min.htc);
   behavior: url(/css/backgroundsize.min.htc);
@@ -123,6 +123,7 @@ blockquote {
   font-family: $times;
   text-align: center;
   font-style: italic;
+  font-size: 21px;
 
   &:before,
   &:after {
@@ -168,7 +169,7 @@ blockquote {
 .navigation {
   display: inline-block;
   margin-right: 78px;
-  padding-bottom: 23px;
+  padding-bottom: 25px;
   vertical-align: bottom;
 
   .menu {
@@ -198,7 +199,7 @@ blockquote {
 
 /* Main */
 .block-login {
-  margin-bottom: 38px;
+  margin-bottom: 40px;
   margin-left: 144px;
   margin-top: 106px;
   max-width: 300px;
@@ -234,7 +235,7 @@ blockquote {
     font-size: 14px;
     margin: 0;
     padding: 10px;
-    padding: 23px 10px;
+    padding: 24px 10px;
     text-align: center;
     text-transform: uppercase;
   }
@@ -243,7 +244,7 @@ blockquote {
     padding: 30px;
 
     .form-item {
-      margin: 18px 0;
+      margin: 19px 0;
 
       .text-input {
         width: 100%;
@@ -314,13 +315,13 @@ blockquote {
 }
 
 .quote-large {
-  margin-bottom: 119px;
+  margin-bottom: 110px;
 
   blockquote {
     color: #fff;
     font-family: $times;
     font-size: 70px;
-    line-height: 69.5px;
+    line-height: 71px;
     margin: 0 137px 0 0;
     font-weight: bold;
     font-style: italic;
@@ -342,7 +343,7 @@ blockquote {
       float: left;
       margin-bottom: 140px;
       max-width: 50%;
-      padding: 0 39px;
+      padding: 0 10px;
       padding: 0\9;
       text-align: center;
 
