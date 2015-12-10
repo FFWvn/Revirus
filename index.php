@@ -10,7 +10,17 @@
   <link rel="stylesheet" href="css/style.css?v=1" type="text/css" media="screen" id="responsive">
 
   <!-- Scripts -->
-  <script type="text/javascript" src="js/script.js?v=1"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript">
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('menu');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+  </script>
 
 
   <!-- Import Font -->

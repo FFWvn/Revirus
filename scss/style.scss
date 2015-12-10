@@ -93,6 +93,11 @@ $timeI: 'TimesItalic';
 #content {
   background: url('../images-template/home-main-bg.png') no-repeat scroll center center transparent;
   background-size: cover;
+  -ms-behavior: url(backgroundsize.min.htc);
+  behavior: url(/css/backgroundsize.min.htc);
+  position: relative\9;
+  z-index: 0\9;
+  zoom:1;
 }
 
 /* Footer */
@@ -114,6 +119,7 @@ html, body {
 body {
   color: $color;
   cursor: inherit;
+  font-family: $lato;
   font-size: 14px;
   font-size: 1em;
   line-height: 1.5em;
@@ -216,20 +222,26 @@ blockquote {
   margin-left: 144px;
   margin-top: 106px;
   max-width: 300px;
+  border-radius: 5px;
+  background: url("../images/parten-o-white.png");
+  behavior: url(/css/pie.htc);
   position: relative;
+  zoom: 1;
 
-  &:before {
+  /* &:before {
     background-color: #fff;
     border-radius: 5px;
     bottom: 0;
     content: "";
-    filter: alpha(opacity=60);
     left: 0;
     opacity: 0.6;
+    filter: alpha(opacity=60);
     position: absolute;
     right: 0;
     top: 0;
-  }
+    width: 100%\9;
+    height: 100%\9;
+  } */
 
   .block-title,
   .block-content {
@@ -346,6 +358,7 @@ blockquote {
       margin-bottom: 140px;
       max-width: 50%;
       padding: 0 39px;
+      padding: 0\9;
       text-align: center;
 
       cite {
