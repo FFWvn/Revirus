@@ -264,7 +264,9 @@ blockquote {
         display: inline-block;
         font-size: 13px;
         padding-left: 25px;
+        behavior: url(css/PIE.htc);
         position: relative;
+        zoom: 1;
 
         &:before {
           background-color: $gray-ed;
