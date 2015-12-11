@@ -729,6 +729,7 @@ blockquote:after {
 }
 /* line 297, ../scss/style.scss */
 .block-login .form-login .rememberForgot label.checked:before {
+  background-image: url("../images/checkbox-checked.png") \9;
   content: "" \9;
   position: relative;
   behavior: url(css/PIE.htc);
@@ -747,11 +748,6 @@ blockquote:after {
   line-height: 15px;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
-/* line 319, ../scss/style.scss */
-.block-login .form-login .rememberForgot input[type*="checkbox"].checked + label:before {
-  background-image: url("../images/checkbox-checked.png") \9;
-  content: "" \9;
 }
 /* line 326, ../scss/style.scss */
 .block-login .form-login .form-active {
