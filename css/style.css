@@ -698,9 +698,9 @@ blockquote:after {
   cursor: pointer;
   display: inline-block;
   font-size: 13px;
-  behavior: url(css/PIE.htc);
   position: relative;
-  zoom: 1;
+  /* behavior: url(css/PIE.htc);
+  zoom: 1; */
 }
 /* line 270, ../scss/style.scss */
 .block-login .form-login .rememberForgot label:before {
@@ -718,13 +718,14 @@ blockquote:after {
   width: 20px;
   vertical-align: middle;
   behavior: url(css/PIE.htc);
+  position: relative;
   zoom: 1;
 }
-/* line 289, ../scss/style.scss */
+/* line 290, ../scss/style.scss */
 .block-login .form-login .rememberForgot input[type*="checkbox"] {
   display: none;
 }
-/* line 292, ../scss/style.scss */
+/* line 293, ../scss/style.scss */
 .block-login .form-login .rememberForgot input[type*="checkbox"]:checked + label:before {
   color: #676767;
   content: "\2713";
@@ -733,12 +734,12 @@ blockquote:after {
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 303, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .block-login .form-login .form-active {
   margin-top: 27px;
   text-align: center;
 }
-/* line 307, ../scss/style.scss */
+/* line 308, ../scss/style.scss */
 .block-login .form-login .form-active .btn {
   background-color: #07a20e;
   -webkit-border-radius: 100px;
@@ -755,11 +756,11 @@ blockquote:after {
   zoom: 1;
 }
 
-/* line 326, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 .quote-large {
   margin-bottom: 110px;
 }
-/* line 329, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 .quote-large blockquote {
   color: #fff;
   font-family: times, serif;
@@ -769,18 +770,18 @@ blockquote:after {
   font-weight: bold;
   font-style: italic;
 }
-/* line 338, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 .quote-large blockquote:before, .quote-large blockquote:after {
   font-size: 63px;
 }
 
 /* Footer */
-/* line 347, ../scss/style.scss */
+/* line 348, ../scss/style.scss */
 .region-footer .quote-normal {
   margin-bottom: 0;
   overflow: hidden;
 }
-/* line 351, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .region-footer .quote-normal .quote-item {
   float: left;
   margin-bottom: 140px;
@@ -789,7 +790,7 @@ blockquote:after {
   padding: 0\9;
   text-align: center;
 }
-/* line 359, ../scss/style.scss */
+/* line 360, ../scss/style.scss */
 .region-footer .quote-normal .quote-item cite {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;

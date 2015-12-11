@@ -263,9 +263,9 @@ blockquote {
         cursor: pointer;
         display: inline-block;
         font-size: 13px;
-        behavior: url(css/PIE.htc);
         position: relative;
-        zoom: 1;
+        /* behavior: url(css/PIE.htc);
+        zoom: 1; */
 
         &:before {
           background-color: $gray-ed;
@@ -282,6 +282,7 @@ blockquote {
           width: 20px;
           vertical-align: middle;
           behavior: url(css/PIE.htc);
+        position: relative;
           zoom: 1;
         }
       }
