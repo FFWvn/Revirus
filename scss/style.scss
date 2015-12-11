@@ -278,6 +278,9 @@ blockquote {
           margin-right: 10px;
           position: absolute;
           width: 20px;
+          behavior: url(/css/PIE.htc);
+          position: relative;
+          zoom: 1;
         }
       }
 
