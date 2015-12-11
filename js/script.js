@@ -1,7 +1,8 @@
 (function($) {
   $(document).ready(function(e) {
-    $('.rememberForgot label').click(function() {
-      $(this).toggleClass('checked');
-    });
+	  $( ".rememberForgot").click(function(){
+    	alert('feb');
+    	$(this).find('label').attr("class","checked");
+		});
   });
 } )( jQuery );
