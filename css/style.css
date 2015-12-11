@@ -705,9 +705,9 @@ blockquote:after {
 /* line 270, ../scss/style.scss */
 .block-login .form-login .rememberForgot label:before {
   background-color: #ededed;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
   border: 1px solid #dedede;
   bottom: 2px;
   content: "";
