@@ -498,7 +498,7 @@ th {
   background: url("../images-template/home-main-bg.png") no-repeat scroll 63% center transparent;
   background-size: cover;
   -ms-behavior: url(backgroundsize.min.htc);
-  behavior: url(/css/backgroundsize.min.htc);
+  behavior: url(css/backgroundsize.min.htc);
   position: relative\9;
   z-index: 0\9;
   zoom: 1;
@@ -548,7 +548,7 @@ input[type*="text"],
   font-size: 13px;
   outline: none !important;
   padding: 11px 12px;
-  behavior: url(/css/pie.htc);
+  behavior: url(css/pie.htc);
   position: relative;
   zoom: 1;
 }
@@ -642,7 +642,7 @@ blockquote:after {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background: url("../images/parten-o-white.png");
-  behavior: url(/css/PIE.htc);
+  behavior: url(css/PIE.htc);
   position: relative;
   zoom: 1;
   /* &:before {
@@ -714,7 +714,7 @@ blockquote:after {
   margin-right: 10px;
   position: absolute;
   width: 20px;
-  behavior: url(/css/PIE.htc);
+  behavior: url(css/PIE.htc);
   position: relative;
   zoom: 1;
 }
@@ -748,7 +748,7 @@ blockquote:after {
   font-weight: 700;
   padding: 15px 42px 13px;
   text-transform: uppercase;
-  behavior: url(/css/PIE.htc);
+  behavior: url(css/PIE.htc);
   position: relative;
   zoom: 1;
 }
