@@ -296,7 +296,27 @@ blockquote {
 
         &.checked:before {
           //background-image: url("../images/checkbox-checked.png")\9;
+          background-color: $gray-ed;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          border-radius: 100px;
+          border: 1px solid $gray-de;
+          bottom: 2px;
+          content: "";
+          display: inline-block;
+          height: 20px;
+          margin-right: 10px;
+          position: relative;
+          width: 20px;
+          vertical-align: middle;
+
+          // hack for ie
+          //background-image: url("../images/checkbox.png")\9;
+          background-repeat: no-repeat\9;
+          background-position: center\9;
+          border: none\9;
           background-color: blue\9;
+          z-index: 99999;
         }
       }
 
