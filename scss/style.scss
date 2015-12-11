@@ -261,6 +261,9 @@ blockquote {
     .rememberForgot {
       label {
         color: $gray-4b;
+        -webkit-border-radius: 100px/9;
+        -moz-border-radius: 100px/9;
+        border-radius: 100px/9;
         cursor: pointer;
         display: inline-block;
         font-size: 13px;
@@ -270,9 +273,9 @@ blockquote {
 
         &:before {
           background-color: $gray-ed;
-          -webkit-border-radius: 100%;
-          -moz-border-radius: 100%;
-          border-radius: 100%;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          border-radius: 100px;
           border: 1px solid $gray-de;
           bottom: 2px;
           content: "";
