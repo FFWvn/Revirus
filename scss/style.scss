@@ -203,11 +203,11 @@ blockquote {
   margin-left: 144px;
   margin-top: 106px;
   max-width: 300px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   background: url("../images/parten-o-white.png");
-  behavior: url(css/PIE.htc);
+  behavior: url(/css/PIE.htc);
   position: relative;
   zoom: 1;
 
@@ -310,7 +310,7 @@ blockquote {
         font-weight: 700;
         padding: 15px 42px 13px;
         text-transform: uppercase;
-        behavior: url(css/PIE.htc);
+        behavior: url(/css/PIE.htc);
         position: relative;
         zoom: 1;
       }

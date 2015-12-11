@@ -33,7 +33,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, ../scss/libs/_normalize.scss */
+/* line 33, ../scss/libs/_normalize.scss */
 article,
 aside,
 details,
@@ -54,7 +54,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 57, ../scss/libs/_normalize.scss */
+/* line 54, ../scss/libs/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -79,7 +79,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 78, ../scss/libs/_normalize.scss */
+/* line 77, ../scss/libs/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -99,7 +99,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 99, ../scss/libs/_normalize.scss */
+/* line 98, ../scss/libs/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -118,7 +118,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 119, ../scss/libs/_normalize.scss */
+/* line 118, ../scss/libs/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -162,7 +162,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 163, ../scss/libs/_normalize.scss */
+/* line 162, ../scss/libs/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -229,7 +229,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, ../scss/libs/_normalize.scss */
+/* line 229, ../scss/libs/_normalize.scss */
 code,
 kbd,
 pre,
@@ -250,7 +250,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 256, ../scss/libs/_normalize.scss */
+/* line 252, ../scss/libs/_normalize.scss */
 button,
 input,
 optgroup,
@@ -278,7 +278,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 278, ../scss/libs/_normalize.scss */
+/* line 277, ../scss/libs/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -291,7 +291,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, ../scss/libs/_normalize.scss */
+/* line 290, ../scss/libs/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -305,7 +305,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 303, ../scss/libs/_normalize.scss */
+/* line 302, ../scss/libs/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -314,7 +314,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 312, ../scss/libs/_normalize.scss */
+/* line 311, ../scss/libs/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -337,7 +337,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 335, ../scss/libs/_normalize.scss */
+/* line 334, ../scss/libs/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -351,7 +351,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 347, ../scss/libs/_normalize.scss */
+/* line 346, ../scss/libs/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -374,7 +374,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 368, ../scss/libs/_normalize.scss */
+/* line 367, ../scss/libs/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -430,7 +430,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 422, ../scss/libs/_normalize.scss */
+/* line 421, ../scss/libs/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -450,7 +450,7 @@ th {
 * STYLE SHEET
 */
 /* --- Layout --- */
-/* line 38, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 *,
 *:after,
 *:before {
@@ -459,7 +459,7 @@ th {
   box-sizing: border-box;
 }
 
-/* line 45, ../scss/style.scss */
+/* line 44, ../scss/style.scss */
 .row:before,
 .row:after {
   content: '';
@@ -539,10 +539,10 @@ body {
   color: #fff;
 }
 
-/* line 110, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 input[type*="text"],
 .text-input {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border-radius: 3px;
   border: 1px solid #e8e8e8;
   font-size: 13px;
@@ -560,7 +560,7 @@ blockquote {
   font-style: italic;
   font-size: 21px;
 }
-/* line 129, ../scss/style.scss */
+/* line 128, ../scss/style.scss */
 blockquote:before, blockquote:after {
   display: inline-block;
 }
@@ -642,7 +642,7 @@ blockquote:after {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background: url("../images/parten-o-white.png");
-  behavior: url(css/PIE.htc);
+  behavior: url(/css/PIE.htc);
   position: relative;
   zoom: 1;
   /* &:before {
@@ -660,7 +660,7 @@ blockquote:after {
     height: 100%\9;
   } */
 }
-/* line 230, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 .block-login .block-title,
 .block-login .block-content {
   position: relative;
@@ -745,7 +745,7 @@ blockquote:after {
   font-weight: 700;
   padding: 15px 42px 13px;
   text-transform: uppercase;
-  behavior: url(css/PIE.htc);
+  behavior: url(/css/PIE.htc);
   position: relative;
   zoom: 1;
 }
@@ -764,7 +764,7 @@ blockquote:after {
   font-weight: bold;
   font-style: italic;
 }
-/* line 334, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .quote-large blockquote:before, .quote-large blockquote:after {
   font-size: 63px;
 }
