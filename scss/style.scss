@@ -295,7 +295,7 @@ blockquote {
         }
 
         &.checked:before {
-          //background-image: url("../images/checkbox-checked.png")\9;
+          background-image: url("../images/checkbox-checked.png")\9;
           content: ""\9;
           position: relative;
           behavior: url(css/PIE.htc);
@@ -316,10 +316,10 @@ blockquote {
           text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
         }
 
-        &.checked + label:before {
-          background-image: url("../images/checkbox-checked.png")\9;
-          content: ""\9;
-        }
+        // &.checked + label:before {
+        //   background-image: url("../images/checkbox-checked.png")\9;
+        //   content: ""\9;
+        // }
       }
     }
     
