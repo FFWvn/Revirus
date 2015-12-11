@@ -271,66 +271,66 @@ blockquote {
         behavior: url(css/PIE.htc);
         zoom: 1;
 
-        &:before {
-          background-color: $gray-ed;
-          -webkit-border-radius: 100px;
-          -moz-border-radius: 100px;
-          border-radius: 100px;
-          border: 1px solid $gray-de;
-          bottom: 2px;
-          content: "";
-          display: inline-block;
-          height: 20px;
-          margin-right: 10px;
-          position: relative;
-          width: 20px;
-          vertical-align: middle;
+        // &:before {
+        //   background-color: $gray-ed;
+        //   -webkit-border-radius: 100px;
+        //   -moz-border-radius: 100px;
+        //   border-radius: 100px;
+        //   border: 1px solid $gray-de;
+        //   bottom: 2px;
+        //   content: "";
+        //   display: inline-block;
+        //   height: 20px;
+        //   margin-right: 10px;
+        //   position: relative;
+        //   width: 20px;
+        //   vertical-align: middle;
 
-          // hack for ie
-          //background-image: url("../images/checkbox.png")\9;
-          background-color: red\9;
-          background-repeat: no-repeat\9;
-          background-position: center\9;
-          border: none\9;
-        }
+        //   // hack for ie
+        //   //background-image: url("../images/checkbox.png")\9;
+        //   background-color: red\9;
+        //   background-repeat: no-repeat\9;
+        //   background-position: center\9;
+        //   border: none\9;
+        // }
 
-        &.checked:before {
-          //background-image: url("../images/checkbox-checked.png")\9;
-          background-color: $gray-ed;
-          -webkit-border-radius: 100px;
-          -moz-border-radius: 100px;
-          border-radius: 100px;
-          border: 1px solid $gray-de;
-          bottom: 2px;
-          content: "";
-          display: inline-block;
-          height: 20px;
-          margin-right: 10px;
-          position: relative;
-          width: 20px;
-          vertical-align: middle;
+        // &.checked:before {
+        //   //background-image: url("../images/checkbox-checked.png")\9;
+        //   background-color: $gray-ed;
+        //   -webkit-border-radius: 100px;
+        //   -moz-border-radius: 100px;
+        //   border-radius: 100px;
+        //   border: 1px solid $gray-de;
+        //   bottom: 2px;
+        //   content: "";
+        //   display: inline-block;
+        //   height: 20px;
+        //   margin-right: 10px;
+        //   position: relative;
+        //   width: 20px;
+        //   vertical-align: middle;
 
-          // hack for ie
-          //background-image: url("../images/checkbox.png")\9;
-          background-repeat: no-repeat\9;
-          background-position: center\9;
-          border: none\9;
-          background-color: blue\9;
-          z-index: 99999;
-        }
+        //   // hack for ie
+        //   //background-image: url("../images/checkbox.png")\9;
+        //   background-repeat: no-repeat\9;
+        //   background-position: center\9;
+        //   border: none\9;
+        //   background-color: blue\9;
+        //   z-index: 99999;
+        // }
       }
 
       input[type*="checkbox"] {
         display: none;
 
-        &:checked + label:before {
-          color: $color;
-          content: "\2713";
-          font-size: 15px;
-          line-height: 15px;
-          text-align: center;
-          text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
-        }
+        // &:checked + label:before {
+        //   color: $color;
+        //   content: "\2713";
+        //   font-size: 15px;
+        //   line-height: 15px;
+        //   text-align: center;
+        //   text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+        // }
 
         // &.checked + label:before {
         //   background-image: url("../images/checkbox-checked.png")\9;

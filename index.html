@@ -13,19 +13,20 @@
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css?v=1" type="text/css" media="screen" id="responsive">
+  <link href="css/skins/blue.css?v=1.0.2" rel="stylesheet">
 
   <!-- Scripts -->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.min.js"></script>
-  <script type="text/javascript">
-    document.createElement('header');
-    document.createElement('nav');
-    document.createElement('menu');
-    document.createElement('section');
-    document.createElement('article');
-    document.createElement('aside');
-    document.createElement('footer');
-  </script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/icheck.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+
+  <!--[if lte IE 8]>
+  <style>
+    input {
+      font-family: Arial;
+    }
+  </style>
+  <![endif]-->
 
 
 </head>
@@ -74,7 +75,7 @@
                   <input type="password" name="pasword" class="text-input pasword" placeholder="Password" value="********">
                 </div>
                 <div class="form-item rememberForgot">
-                  <input id="remember" type="checkbox" value="remember" name="remember_me"> <label for="remember">Husk mig</label>
+                  <input id="remember" type="checkbox" value="remember" name="remember_me" indeterminate="true"> <label for="remember">Husk mig</label>
                 </div>
                 <div class="form-active">
                   <input type="submit" class="submit btn primary-btn js-submit" value="Log in">
@@ -117,5 +118,4 @@
     </footer>
   </div>
 </body>
-http://ie7-js.googlecode.com/svn/test/checked.html
 </html>

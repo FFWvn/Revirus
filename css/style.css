@@ -706,59 +706,9 @@ blockquote:after {
   behavior: url(css/PIE.htc);
   zoom: 1;
 }
-/* line 274, ../scss/style.scss */
-.block-login .form-login .rememberForgot label:before {
-  background-color: #ededed;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 1px solid #dedede;
-  bottom: 2px;
-  content: "";
-  display: inline-block;
-  height: 20px;
-  margin-right: 10px;
-  position: relative;
-  width: 20px;
-  vertical-align: middle;
-  background-color: red\9;
-  background-repeat: no-repeat\9;
-  background-position: center\9;
-  border: none\9;
-}
-/* line 297, ../scss/style.scss */
-.block-login .form-login .rememberForgot label.checked:before {
-  background-color: #ededed;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 1px solid #dedede;
-  bottom: 2px;
-  content: "";
-  display: inline-block;
-  height: 20px;
-  margin-right: 10px;
-  position: relative;
-  width: 20px;
-  vertical-align: middle;
-  background-repeat: no-repeat\9;
-  background-position: center\9;
-  border: none\9;
-  background-color: blue\9;
-  z-index: 99999;
-}
 /* line 323, ../scss/style.scss */
 .block-login .form-login .rememberForgot input[type*="checkbox"] {
   display: none;
-}
-/* line 326, ../scss/style.scss */
-.block-login .form-login .rememberForgot input[type*="checkbox"]:checked + label:before {
-  color: #676767;
-  content: "\2713";
-  font-size: 15px;
-  line-height: 15px;
-  text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 /* line 342, ../scss/style.scss */
 .block-login .form-login .form-active {
