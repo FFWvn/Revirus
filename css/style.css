@@ -634,6 +634,12 @@ blockquote:after {
 
 /* Main */
 /* line 202, ../scss/style.scss */
+#main {
+  background-image: url("../images-template/bg_feature.jpg");
+  background-repeat: repeat-x;
+}
+
+/* line 206, ../scss/style.scss */
 .block-login {
   margin-bottom: 40px;
   margin-left: 12%;
@@ -661,12 +667,12 @@ blockquote:after {
     height: 100%\9;
   } */
 }
-/* line 231, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 .block-login .block-title,
 .block-login .block-content {
   position: relative;
 }
-/* line 235, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 .block-login .block-title {
   border-bottom: 1px solid #fff;
   color: #323133;
@@ -677,23 +683,23 @@ blockquote:after {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 246, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 .block-login .form-login {
   padding: 30px;
 }
-/* line 249, ../scss/style.scss */
+/* line 253, ../scss/style.scss */
 .block-login .form-login .form-item {
   margin: 19px 0;
 }
-/* line 252, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .block-login .form-login .form-item .text-input {
   width: 100%;
 }
-/* line 257, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .block-login .form-login .username {
   margin-top: 0;
 }
-/* line 262, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .block-login .form-login .rememberForgot label {
   color: #4b4b4b;
   -webkit-border-radius: 100px/9;
@@ -706,16 +712,16 @@ blockquote:after {
   behavior: url(css/PIE.htc);
   zoom: 1;
 }
-/* line 323, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 .block-login .form-login .rememberForgot input[type*="checkbox"] {
   display: none;
 }
-/* line 342, ../scss/style.scss */
+/* line 346, ../scss/style.scss */
 .block-login .form-login .form-active {
   margin-top: 27px;
   text-align: center;
 }
-/* line 346, ../scss/style.scss */
+/* line 350, ../scss/style.scss */
 .block-login .form-login .form-active .btn {
   background-color: #07a20e;
   -webkit-border-radius: 100px;
@@ -732,11 +738,11 @@ blockquote:after {
   zoom: 1;
 }
 
-/* line 365, ../scss/style.scss */
+/* line 369, ../scss/style.scss */
 .quote-large {
   margin-bottom: 110px;
 }
-/* line 368, ../scss/style.scss */
+/* line 372, ../scss/style.scss */
 .quote-large blockquote {
   color: #fff;
   font-family: times, serif;
@@ -746,18 +752,18 @@ blockquote:after {
   font-weight: bold;
   font-style: italic;
 }
-/* line 378, ../scss/style.scss */
+/* line 382, ../scss/style.scss */
 .quote-large blockquote:before, .quote-large blockquote:after {
   font-size: 63px;
 }
 
 /* Footer */
-/* line 386, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .region-footer .quote-normal {
   margin-bottom: 0;
   overflow: hidden;
 }
-/* line 390, ../scss/style.scss */
+/* line 394, ../scss/style.scss */
 .region-footer .quote-normal .quote-item {
   float: left;
   margin-bottom: 140px;
@@ -766,7 +772,7 @@ blockquote:after {
   padding: 0\9;
   text-align: center;
 }
-/* line 398, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .region-footer .quote-normal .quote-item cite {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
